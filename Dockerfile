@@ -4,6 +4,4 @@ MAINTAINER Ivan Takarlikov <vtakarlikov@gmail.com>
 
 ENV discovery.type="single-node"
 
-ENV http.port=9250
-
-EXPOSE 9250/tcp
+EXPOSE 9200/tcp
